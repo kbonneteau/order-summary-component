@@ -7,6 +7,8 @@
     border-radius: 1.25rem;
     width: 87.2%;
     max-width: 28.125rem;
+    @include flex-column;
+    align-items: center;
 
     &__hero {
         border-radius: 1.25rem 1.25rem 0 0;
@@ -20,5 +22,12 @@
         color: $neutral-dark-blue;
         margin: 2rem 0 1rem;
         padding: 0;
+    }
+
+    &__description {
+        color: $neutral-desaturated-blue;
+        text-align: center;
+        line-height: 1.5625rem;
+        width: 27ch;
     }
 }

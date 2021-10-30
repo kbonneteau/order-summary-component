@@ -1,3 +1,46 @@
 @use '../../partials/mixins' as *;
 @use '../../partials/typography' as *;
 @use '../../partials/variables' as *;
+
+.plan-details {
+    @include flex-centering;
+    justify-content: space-between;
+    width: 85.32%;
+    background-color: $neutral-pale-blue;
+    margin: 1.5rem 0;
+    padding: 1rem .5rem 1rem 1rem;
+    height: 5.0625rem;
+    border-radius: 0.5875rem;
+
+    &__plan-icon {
+
+    }
+
+    &__detail-container {
+
+    }
+
+    &__plan-name {
+        font-size: 1rem;
+        margin: 0;
+        color: $neutral-dark-blue;
+        font-size: 0.875rem;
+    }
+
+    &__plan-price {
+        margin: .25rem 0 0;
+        color: $neutral-desaturated-blue;
+        font-size: 0.875rem;
+    }
+
+    &__change-plan {
+        background: none;
+        border: none;
+        text-decoration: underline;
+        font-weight: 700;
+        color: $primary-bright-blue;
+        font-family: 'Red Hat Display';
+        font-size: 13px;
+        margin-left: 1.5rem;
+    }
+}
