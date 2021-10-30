@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-Black.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../assets/fonts/RedHatDisplay-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/RedHatDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
