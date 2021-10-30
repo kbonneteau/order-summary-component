@@ -17,6 +17,10 @@
         font-size: 1rem;
         border-radius: 0.6875rem;
         box-shadow: 0px 20px 20px 0px #392ae130;
+
+        &:hover {
+            background-color: #766CF1;
+        }
     }
     
     &__secondary-btn {
@@ -25,5 +29,9 @@
         font-size: 1rem;
         color: $neutral-desaturated-blue;
         padding: 1rem 0 .5rem;
+
+        &:hover {
+            color: $neutral-dark-blue;
+        }
     }
 }

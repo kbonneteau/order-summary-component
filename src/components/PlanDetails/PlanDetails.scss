@@ -40,5 +40,10 @@
         font-weight: 700;
         font-size: 0.8125rem;
         margin-left: 1.5rem;
+
+        &:hover {
+            color: #766CF1;
+            text-decoration: none;
+        }
     }
 }
