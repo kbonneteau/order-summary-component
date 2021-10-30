@@ -5,19 +5,16 @@
 .plan-details {
     @include flex-centering;
     justify-content: space-between;
-    width: 85.32%;
+    width: calc(100% - 3rem);
     background-color: $neutral-pale-blue;
     margin: 1.5rem 0;
     padding: 1rem .5rem 1rem 1rem;
     height: 5.0625rem;
     border-radius: 0.5875rem;
 
-    &__plan-icon {
-
-    }
-
-    &__detail-container {
-
+    @include tablet {
+        margin: 1rem 0;
+        width: calc(100% - 6rem);
     }
 
     &__plan-name {
@@ -25,12 +22,20 @@
         margin: 0;
         color: $neutral-dark-blue;
         font-size: 0.875rem;
+        
+        @include tablet {
+            font-size: 1rem;
+        }
     }
 
     &__plan-price {
         margin: .25rem 0 0;
         color: $neutral-desaturated-blue;
         font-size: 0.875rem;
+
+        @include tablet {
+            font-size: 1rem;
+        }
     }
 
     &__change-plan {
@@ -44,6 +49,11 @@
         &:hover {
             color: #766CF1;
             text-decoration: none;
+        }
+
+        @include tablet {
+            margin-left: 4.5rem;
+            font-size: 0.875rem;
         }
     }
 }

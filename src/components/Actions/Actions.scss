@@ -7,6 +7,10 @@
     width: calc(100% - 3rem);
     margin: 1.5rem;
 
+    @include tablet {
+        width: calc(100% - 6rem);
+    }
+
     &__primary-btn {
         margin-bottom: .5rem;
         @include button-reset;
@@ -32,6 +36,10 @@
 
         &:hover {
             color: $neutral-dark-blue;
+        }
+
+        @include tablet {
+            margin-bottom: .5rem;
         }
     }
 }
