@@ -1,0 +1,14 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/typography' as *;
+@use '../../partials/variables' as *;
+
+.order-summary {
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+
+    &__title {
+        text-align: center;
+        font-size: 1.375rem;
+        font-weight: 900;
+    }
+}

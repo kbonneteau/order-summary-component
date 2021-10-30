@@ -1,10 +1,11 @@
 import './App.scss';
+import OrderSummaryCard from './components/OrderSummaryCard/OrderSummaryCard';
 
 function App() {
   return (
-    <div className="App">
-      hello world
-    </div>
+    <main>
+      <OrderSummaryCard />
+    </main>
   );
 }
 
