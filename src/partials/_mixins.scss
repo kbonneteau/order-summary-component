@@ -37,3 +37,10 @@
     font-weight: $font-weight ;
     line-height: $line-height;
 }
+
+@mixin button-reset {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Red Hat Display';
+}

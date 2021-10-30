@@ -34,13 +34,11 @@
     }
 
     &__change-plan {
-        background: none;
-        border: none;
+        @include button-reset;
+        color: $primary-bright-blue;
         text-decoration: underline;
         font-weight: 700;
-        color: $primary-bright-blue;
-        font-family: 'Red Hat Display';
-        font-size: 13px;
+        font-size: 0.8125rem;
         margin-left: 1.5rem;
     }
 }

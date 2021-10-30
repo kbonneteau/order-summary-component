@@ -1,3 +1,29 @@
 @use '../../partials/mixins' as *;
 @use '../../partials/typography' as *;
 @use '../../partials/variables' as *;
+
+.actions {
+    @include flex-column;
+    width: calc(100% - 3rem);
+    margin: 1.5rem;
+
+    &__primary-btn {
+        margin-bottom: .5rem;
+        @include button-reset;
+        color: #FFFFFF;
+        background-color: $primary-bright-blue;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+        border-radius: 0.6875rem;
+        box-shadow: 0px 20px 20px 0px #392ae130;
+    }
+    
+    &__secondary-btn {
+        @include button-reset;
+        font-weight: 700;
+        font-size: 1rem;
+        color: $neutral-desaturated-blue;
+        padding: 1rem 0 .5rem;
+    }
+}
